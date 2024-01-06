@@ -3,7 +3,8 @@ import subprocess
 import tkinter as tk
 from tkinter import filedialog
 import time
-import sys  # Import the sys module
+import sys
+import ctypes
 
 CONFIG_FILE_PATH = "config.txt"
 
@@ -98,6 +99,9 @@ def main():
 
     # Open game exe
     open_program(game_exe_path)
+
+    # Close the console window
+    ctypes.windll.kernel32.FreeConsole()
 
 if __name__ == "__main__":
     main()
