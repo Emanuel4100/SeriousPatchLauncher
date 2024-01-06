@@ -1,0 +1,7 @@
+Hi, guys I'm a noobie with no coding experience I just wanted to make a program/script that will make the bo3 launching experience a bit more smooth, so I used chatGPT to code this Python script. this is more a concept rather than the final product but it works just fine for now 
+if you just want to launch the bo3.
+what does it do?
+first, you select the location of the patch then the path of the game, and
+then the program stores the location so it knows where they are each time you open it, it will launch the patch and then the game.
+sorry for grammar mistakes English is not my native language
+ 
